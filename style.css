@@ -6,8 +6,6 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-image: url(../img/wallpaper.png);
-        background-size: cover;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
         color: #222;
     }
