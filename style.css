@@ -30,4 +30,5 @@ button:hover {
         transform: translateY(-2px);
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         scale: 1.2;
+        transform: rotate(10deg);
     }
