@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ul {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 14, 91);
+    text-align: center;
+}
+
+.lista {
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+
+}
+
+.Galeria img {
+    margin: 24px;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
